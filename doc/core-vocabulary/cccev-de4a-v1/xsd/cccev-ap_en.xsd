@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns="https://data.europa.eu/m8g/xml/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://data.europa.eu/m8g/xml/" version="2.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:cv="https://data.europa.eu/m8g/xml/">
+  <xs:element name="Constraint" type="ConstraintType"/>
+  <xs:element name="Criterion" type="CriterionType"/>
+  <xs:element name="Evidence" type="EvidenceType"/>
+  <xs:element name="EvidenceType" type="EvidenceTypeType"/>
+  <xs:element name="EvidenceTypeList" type="EvidenceTypeListType"/>
+  <xs:element name="EvidenceType" type="EvidenceTypeType"/>
+  <xs:element name="InformationConcept" type="InformationConceptType"/>
+  <xs:element name="InformationRequirement" type="InformationRequirementType"/>
+  <xs:element name="ReferenceFramework" type="ReferenceFrameworkType"/>
+  <xs:element name="Requirement" type="RequirementType"/>
+  <xs:element name="SupportedValue" type="SupportedValueType"/>
+  <xs:element name="Location" type="LocationType"/>
+  <xs:element name="PeriodOfTime" type="PeriodOfTimeType"/>
+  <xs:element name="Dataset" type="DatasetType"/>
+  <xs:element name="Agent" type="AgentType"/>
+  <xs:simpleType name="Literal">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:complexType name="langstring">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="lang" type="xs:language"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="ConceptType">
+    <xs:simpleContent>
+      <xs:extension base="xs:token">
+        <xs:attribute name="ref" type="xs:IDREF"/>
+        <xs:attribute name="conceptSchemeRef" type="xs:IDREF"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="ConstraintType">
+    <xs:sequence>
+      <xs:element name="constrains" ref="InformationConceptType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Information Concept about which a Constraint expresses a limitation.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="ConstraintRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to Constraint ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="CriterionType">
+    <xs:sequence>
+      <xs:element name="bias" type="xs:decimal" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Parameter used to adjust the evaluation of the Criterion.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="weight" type="xs:decimal" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Relative importance of the Criterion.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="weightingConsiderationDescription" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Explanation of how the weighting of a Criterion is to be used.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="weightingType" type="ConceptType" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Indication of how the weight should be interpreted in a complex evaluation expression, e.g. as a percentage in an evaluation expression.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="CriterionRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to Criterion ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="EvidenceType">
+    <xs:sequence>
+      <xs:element name="confidentialityLevelType" type="ConceptType" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Security classification assigned to an Evidence e.g. classified, sensitive, public.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="isAbout" ref="AgentType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Agent that is the subject in the provided Evidence.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="isConformantTo" ref="EvidenceTypeType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Evidence Type that specifies characteristics of the Evidence.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="isCreatedBy" ref="AgentType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Agent that produces the Evidence.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="isIssuedBy" ref="AgentType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Agent legally responsible for the Evidence, e.g. a legal authority.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="isProvidedBy" ref="AgentType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Agent that transmits the Evidence.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="supportsConcept" ref="InformationConceptType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Information Concept providing facts found/inferred from the Evidence.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="supportsRequirement" ref="RequirementType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Requirement for which the Evidence provides proof.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="supportsValue" ref="SupportedValueType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Supported Value that the Evidence contains.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="validityPeriod" ref="PeriodOfTimeType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Period of Time during which the Evidence holds true or has force.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="EvidenceRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to Evidence ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="EvidenceTypeType">
+    <xs:sequence>
+      <xs:element name="evidenceTypeClassification" type="ConceptType" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Category to which the Evidence Type belongs.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="identifier" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Unambiguous reference to the Evidence Type.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="isSpecifiedIn" ref="EvidenceTypeListType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Evidence Type List in which the Evidence Type is included.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="issuingPlace" ref="LocationType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Refers to the Location where an Evidence Type is issued.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="validityPeriodConstraint" ref="PeriodOfTimeType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Temporal condition on the validity period of the Evidence Type.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="EvidenceTypeRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to EvidenceType ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="EvidenceTypeListType">
+    <xs:sequence>
+      <xs:element name="description" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Short explanation supporting the understanding of the Evidence Type List.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="identifier" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Unambiguous reference to the Evidence Type List.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="name" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Name of the Evidence Type List.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="specifiesEvidenceType" ref="EvidenceTypeType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Evidence Type included in this Evidence Type List.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="EvidenceTypeListRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to EvidenceTypeList ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="EvidenceTypeType">
+    <xs:sequence>
+      <xs:element name="identifier" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Unambiguous reference to the Evidence Type.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="evidenceTypeClassification" type="xs:duration" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Category to which the Evidence Type belongs.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="EvidenceTypeRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to EvidenceType ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="InformationConceptType">
+    <xs:sequence>
+      <xs:element name="description" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Short explanation supporting the understanding of the Information Concept.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="expressionOfExpectedValue" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Formulation in a formal language of the expected value(s) for the Information Concept which is aligned with the concepts from the Requirements defined and must be respected by the supplied Supported Values .</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="identifier" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Unambiguous reference to the Information Concept.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="name" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Name of the Information Concept.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="type" type="ConceptType" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Category to which the Information Concept belongs.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="InformationConceptRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to InformationConcept ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="InformationRequirementType">
+    <xs:sequence/>
+    <xs:attribute name="InformationRequirementRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to InformationRequirement ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="ReferenceFrameworkType">
+    <xs:sequence>
+      <xs:element name="identifier" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">An unambiguous reference to a Reference Framework.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="ReferenceFrameworkRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to ReferenceFramework ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="RequirementType">
+    <xs:sequence>
+      <xs:element name="description" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">A short explanation supporting the understanding of the Requirement.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="hasConcept" ref="InformationConceptType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Information Concept for which a value is expected by the Requirement.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="hasEvidenceTypeList" ref="EvidenceTypeListType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Evidence Type List that specifies the Evidence Types that are needed to meet the Requirement.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="hasQualifiedRelation" ref="RequirementType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Described and/or categorised relation to another Requirement.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="hasRequirement" ref="RequirementType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">A more specific Requirement that is part of the Requirement.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="hasSupportingEvidence" ref="EvidenceType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Evidence that supplies information, proof or support for the Requirement.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="identifier" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Unambiguous reference to a Requirement.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="isDerivedFrom" ref="ReferenceFrameworkType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Reference Framework on which the Requirement is based, such as a law or regulation.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="isIssuedBy" ref="AgentType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Agent that has published the Requirement.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="isRequirementOf" ref="RequirementType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">A reference between a sub-Requirement and its parent Requirement.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="name" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Name of the Requirement.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="type" type="ConceptType" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Category to which the Requirement belongs.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="RequirementRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to Requirement ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="SupportedValueType">
+    <xs:sequence>
+      <xs:element name="providesValueFor" ref="InformationConceptType" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Information Concept for which the Supported Value provides a value.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="query" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Search statement that allows the value for the Information Concept to be retrieved from the Evidence data.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="value" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Value for the Information Concept that the Evidence supports.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="SupportedValueRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to SupportedValue ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="LocationType">
+    <xs:sequence/>
+    <xs:attribute name="LocationRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to Location ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="PeriodOfTimeType">
+    <xs:sequence>
+      <xs:element name="duration" type="xs:duration" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Extent of the Period of Time.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="endtime" type="xs:dateTime" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Time instant at which the Period was terminated.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="starttime" type="xs:dateTime" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Time instant at which the Period was initiated.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="PeriodOfTimeRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to PeriodOfTime ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="DatasetType">
+    <xs:sequence>
+      <xs:element name="identifier" type="xs:string" maxOccurs="1" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Unambiguous reference to the Dataset.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="DatasetRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to Dataset ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="AgentType">
+    <xs:sequence/>
+    <xs:attribute name="AgentRef" type="xs:IDREF">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">Reference to Agent ID</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+</xs:schema>
