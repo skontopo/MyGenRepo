@@ -59,10 +59,6 @@
       "definition": {
         "en": "Information about the characteristics of an Evidence.",
         "de": "Enter your translation here"
-      },
-      "usage": {
-        "en": "The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and/or other characteristics that an actual response should have and provide (e.g. membership of a class of Evidences).",
-        "de": "Enter your translation here"
       }
     },
     {
@@ -89,7 +85,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Information about the characteristics of an Evidence.",
+        "en": "Represents a Higher Education (HE) diploma",
         "de": "Enter your translation here"
       }
     },
@@ -940,18 +936,6 @@
       }
     },
     {
-      "EA-Guid": "{E24C981E-0469-450d-9FF6-D08ADE3DB094}",
-      "name": "isAbout",
-      "label": {
-        "en": "is about",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Agent that is the subject in the provided Evidence.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{6D2876A0-91E1-47f9-B5A6-30172B050E60}",
       "name": "holderOfAchievement",
       "label": {
@@ -960,6 +944,18 @@
       },
       "definition": {
         "en": "Person that has obtained the academic title or degree",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E24C981E-0469-450d-9FF6-D08ADE3DB094}",
+      "name": "isAbout",
+      "label": {
+        "en": "is about",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Agent that is the subject in the provided Evidence.",
         "de": "Enter your translation here"
       }
     },

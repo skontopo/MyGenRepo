@@ -397,9 +397,6 @@
       "ap-definition-en": {
         "en": "Information about the characteristics of an Evidence."
       },
-      "usage": {
-        "en": "The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and/or other characteristics that an actual response should have and provide (e.g. membership of a class of Evidences)."
-      },
       "ap-label-en": {
         "en": "Evidence Type"
       },
@@ -423,9 +420,7 @@
         "definition": {
           "en": "Information about the characteristics of an Evidence."
         },
-        "usage": {
-          "en": "The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and/or other characteristics that an actual response should have and provide (e.g. membership of a class of Evidences)."
-        },
+        "usage": "",
         "ap-label-en": {
           "en": "Evidence Type"
         },
@@ -444,11 +439,6 @@
             "key": "definition-en",
             "value": "Information about the characteristics of an Evidence.",
             "note": "null"
-          },
-          {
-            "key": "usageNote-en",
-            "value": "NOTE",
-            "note": "The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and/or other characteristics that an actual response should have and provide (e.g. membership of a class of Evidences)."
           }
         ],
         "Scope": "FULL_DEFINITON"
@@ -527,13 +517,13 @@
       "@id": "http://data.europa.eu/m8g/HigherEducationDiplomaType",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "ap-definition-en": {
-        "en": "Information about the characteristics of an Evidence."
+        "en": "Represents a Higher Education (HE) diploma"
       },
       "ap-label-en": {
         "en": "Higher Education Diploma Type"
       },
       "definition": {
-        "en": "Information about the characteristics of an Evidence."
+        "en": "Represents a Higher Education (HE) diploma"
       },
       "label": {
         "en": "Higher Education Diploma Type"
@@ -557,14 +547,14 @@
           "en": "Higher Education Diploma Type"
         },
         "definition": {
-          "en": "Information about the characteristics of an Evidence."
+          "en": "Represents a Higher Education (HE) diploma"
         },
         "usage": "",
         "ap-label-en": {
           "en": "Higher Education Diploma Type"
         },
         "ap-definition-en": {
-          "en": "Information about the characteristics of an Evidence."
+          "en": "Represents a Higher Education (HE) diploma"
         },
         "ap-usageNote-en": "",
         "ap-codelist": "",
@@ -576,7 +566,7 @@
           },
           {
             "key": "definition-en",
-            "value": "Information about the characteristics of an Evidence.",
+            "value": "Represents a Higher Education (HE) diploma",
             "note": "null"
           }
         ],
@@ -5905,108 +5895,6 @@
     {
       "@id": "http://purl.org/dc/terms/subject",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "isAbout",
-      "inpackage": "UNKNOWN",
-      "ap-definition-en": {
-        "en": "Agent that is the subject in the provided Evidence."
-      },
-      "ap-label-en": {
-        "en": "is about"
-      },
-      "definition": {
-        "en": "Agent that is the subject in the provided Evidence."
-      },
-      "label": {
-        "en": "is about"
-      },
-      "extra": {
-        "EA-Name": "isAbout",
-        "EA-Guid": "{E24C981E-0469-450d-9FF6-D08ADE3DB094}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Evidence",
-        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
-        "EA-Range": "Agent",
-        "RangeData": {
-          "EA-Name": "Agent",
-          "EA-GUID": "{3C4A571F-B0FB-4506-902F-80FC1505C3A1}",
-          "EA-Package": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/Agent"
-        },
-        "sourceRole": "null",
-        "destRole": "isAbout",
-        "label": {
-          "en": "is about"
-        },
-        "definition": {
-          "en": "Agent that is the subject in the provided Evidence."
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "is about"
-        },
-        "ap-definition-en": {
-          "en": "Agent that is the subject in the provided Evidence."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "is about"
-          },
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://purl.org/dc/terms/subject"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "Agent that is the subject in the provided Evidence."
-          }
-        ],
-        "DestRoleTags": [
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "is about"
-          },
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://purl.org/dc/terms/subject"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "Agent that is the subject in the provided Evidence."
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "http://data.europa.eu/m8g/Evidence",
-          "EA-Name": "Evidence"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Agent",
-          "EA-GUID": "{3C4A571F-B0FB-4506-902F-80FC1505C3A1}",
-          "EA-Package": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/Agent"
-        }
-      ],
-      "generalization": []
-    },
-    {
-      "@id": "http://purl.org/dc/terms/subject",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "holderOfAchievement",
       "inpackage": "UNKNOWN",
       "ap-definition-en": {
@@ -6094,6 +5982,108 @@
         {
           "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType",
           "EA-Name": "HigherEducationDiplomaType"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Agent",
+          "EA-GUID": "{3C4A571F-B0FB-4506-902F-80FC1505C3A1}",
+          "EA-Package": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/Agent"
+        }
+      ],
+      "generalization": []
+    },
+    {
+      "@id": "http://purl.org/dc/terms/subject",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "isAbout",
+      "inpackage": "UNKNOWN",
+      "ap-definition-en": {
+        "en": "Agent that is the subject in the provided Evidence."
+      },
+      "ap-label-en": {
+        "en": "is about"
+      },
+      "definition": {
+        "en": "Agent that is the subject in the provided Evidence."
+      },
+      "label": {
+        "en": "is about"
+      },
+      "extra": {
+        "EA-Name": "isAbout",
+        "EA-Guid": "{E24C981E-0469-450d-9FF6-D08ADE3DB094}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Evidence",
+        "EA-Domain-Guid": "{0D2F3FDD-683F-4121-868E-6F502993AD54}",
+        "EA-Range": "Agent",
+        "RangeData": {
+          "EA-Name": "Agent",
+          "EA-GUID": "{3C4A571F-B0FB-4506-902F-80FC1505C3A1}",
+          "EA-Package": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/Agent"
+        },
+        "sourceRole": "null",
+        "destRole": "isAbout",
+        "label": {
+          "en": "is about"
+        },
+        "definition": {
+          "en": "Agent that is the subject in the provided Evidence."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "is about"
+        },
+        "ap-definition-en": {
+          "en": "Agent that is the subject in the provided Evidence."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "NOTE",
+            "note": "is about"
+          },
+          {
+            "key": "uri",
+            "value": "NOTE",
+            "note": "http://purl.org/dc/terms/subject"
+          },
+          {
+            "key": "definition-en",
+            "value": "NOTE",
+            "note": "Agent that is the subject in the provided Evidence."
+          }
+        ],
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "value": "NOTE",
+            "note": "is about"
+          },
+          {
+            "key": "uri",
+            "value": "NOTE",
+            "note": "http://purl.org/dc/terms/subject"
+          },
+          {
+            "key": "definition-en",
+            "value": "NOTE",
+            "note": "Agent that is the subject in the provided Evidence."
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://data.europa.eu/m8g/Evidence",
+          "EA-Name": "Evidence"
         }
       ],
       "range": [
@@ -6833,12 +6823,12 @@
   ],
   "config": "config/config-ap.json",
   "branchtag": "main",
-  "dummy": "2",
+  "dummy": "3",
   "filename": "config/cccev-de4a.json",
   "navigation": {},
   "repository": "git@github.com:skontopo/uri.semic.eu-thema.git",
   "urlref": "/doc/core-vocabulary/cccev-de4a-v1",
-  "documentcommit": "c21a105e61c931ecc80694d621f1de62c58ed4f7",
-  "toolchaincommit": "c0ffc6e93a94d4f213650cee6f6eade7be1e88ff",
+  "documentcommit": "06a1207fb207f655eaf3a55575689716e5ec0a4c",
+  "toolchaincommit": "7c6e5f7e0c88b91edd76b723ea4d1375e7f7e32a",
   "hostname": "https://semiceu.github.io/"
 }

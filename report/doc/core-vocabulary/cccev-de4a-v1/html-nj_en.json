@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "Working Draft",
     "statuslabel": "Onbekend",
-    "repositoryurl": "git@github.com:skontopo/uri.semic.eu-thema.git/tree/c21a105e61c931ecc80694d621f1de62c58ed4f7",
-    "changelogurl": "git@github.com:skontopo/uri.semic.eu-thema.git/blob/c21a105e61c931ecc80694d621f1de62c58ed4f7/CHANGELOG",
+    "repositoryurl": "git@github.com:skontopo/uri.semic.eu-thema.git/tree/06a1207fb207f655eaf3a55575689716e5ec0a4c",
+    "changelogurl": "git@github.com:skontopo/uri.semic.eu-thema.git/blob/06a1207fb207f655eaf3a55575689716e5ec0a4c/CHANGELOG",
     "feedbackurl": "https://github.com/SEMICeu/CCCEV/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -653,9 +653,7 @@
       "description": {
         "en": "Information about the characteristics of an Evidence."
       },
-      "usage": {
-        "en": "The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and/or other characteristics that an actual response should have and provide (e.g. membership of a class of Evidences)."
-      },
+      "usage": {},
       "parents": [],
       "properties": [
         {
@@ -1008,7 +1006,7 @@
       },
       "sort": "Higher Education Diploma Type",
       "description": {
-        "en": "Information about the characteristics of an Evidence."
+        "en": "Represents a Higher Education (HE) diploma"
       },
       "usage": {},
       "parents": [
