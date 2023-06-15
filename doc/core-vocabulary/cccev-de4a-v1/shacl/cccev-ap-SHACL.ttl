@@ -701,60 +701,402 @@
 
 <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/0af4bf8a201a02a82436ea96c018c4bdc8e01ce8>,
-    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/6c7c1bd2ab3b7761e5be759a078a9fd93f411a57>,
-    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/c0d17764e84e711728581fda7356a51e99a9040a>,
-    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/ce8a015e331e05a0d34d3c69ba9e382387ddae10>,
-    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/cf7ce581b257744aacbea934671d0cf42090d370>,
-    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/de4ddab4e58a591080bee455d5668948a6643749>;
+  shacl:property <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/0058eaa776af17b2a589290d2b5006c1a7ca66d0>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/01105969d745783ae99c6816b5c688dcae93420d>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/0bcd82491877b4e132889dbb5ec32f7dbaebfaa1>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/0cb4c69ee04488f8a0c4b211c47ce3b21d3d20be>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/121b15f2cfe5ac33a2df1ee44ab56097f079d945>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/12905480e9347ee3cdec0a0f38d13a5ed5d97f84>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/1bb0e53e3e1876c3da3fd9df3e8ee3f60d4884a4>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/21fd2e018915cd010aee64c9aa451a414a1ad052>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/272295e2967d3e3aef522a1c9008de5eb797f296>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/2e1264dfab451948c67f19b5221e7e02719268b7>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/4005a4331130f00ef723c764231303ee733e7ba2>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/4492f578fd7e0ff3cb078568af377822ca1e030e>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/4b8f8eff8eada6ecefbf19bbe3fc744c65f77c7a>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/4e91bac2f6df80185c9b4540ca187b4185379b2b>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/4f55a250e5c4f7f64dddb030205d357a18d2645f>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/520563724e3a8aa7c60dcce7342ed4c821858be4>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/5234ad4024f72ef2894b9a3c4070d21aa283ed87>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/552455da368f2e2d08b5471c16ac6acfc787e468>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/619c569894f65fa9e20f2d703f970fd0cb5dac65>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/7795542430e1a8c6bdda87b82a8be8f094c61c8e>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/779afe92d53e5d5310c708fc5388d53058baac40>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/886a37c0a64d5093fa1e6f0352c72d6c9999de5f>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/8abf7520476f733f0a4900d50870e2f8d79cc540>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/8e5b03b27fccfb5fc121e0a600b1634e71328ce0>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/9260811724313305f5e58567c32bdea42e3e48c8>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/997f01be452dab4e2f9ba8eac66ced33da8bdef9>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/a44e91662f0eb455e5684cafafd20774d6f6bd28>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/a62e97f56ea8aa2e9b829c9e52470b38464d84ee>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/b2d3ac00adf57ca47e24b371d036da25f0f2fb43>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/b3c2b04a5770e5c72ce3a390615fb0682cad2762>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/b8784653d3530bfcf213a00f8dffb8911bf0745f>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/bdda3f24589bf03f70a756e03548975d63c32c90>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/befb27de8dc27d6bf1cd2b4ba2ca8405e3cc2a51>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/bf52e09676930dd8041524b5bcec89832bf2e0ac>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/cca7e197b68c904550fa06e5cb483bcfb082abdb>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/e515f96d1d892ad4e05d32a3ffaa9a5ed7c17588>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/e9fbacbd1f19c7c2bb22be7609edfceb10a39357>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/ea65b986c5c3d0f61b0bd70d718c94420d80210f>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/edb7be6d4868fa1506a388b62f2dfb8509548ba4>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/ef0ea69a86a8fa5c65637671c05d7859f3d29948>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/f92c7819f876c22d22396f7f34639d476c5d7aef>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/fd95bf7f8872445b7fde0d790e1c2a4e1bbeef0b>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/ffd170da8f01b32c50f2b566957a021659ebba79>,
+    <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/ffe4beac35d330d59c139fb3558aab43a172b9b5>;
   shacl:targetClass <http://data.europa.eu/m8g/HigherEducationDiplomaType> .
 
-<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/0af4bf8a201a02a82436ea96c018c4bdc8e01ce8> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aevidence%20type%20classification";
-  shacl:description "Category to which the Evidence Type belongs."@en;
-  shacl:name "evidence type classification"@en;
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/0058eaa776af17b2a589290d2b5006c1a7ca66d0> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Adegree";
+  shacl:description "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)"@en;
+  shacl:maxCount 1;
+  shacl:name "degree"@en;
+  shacl:path <http://data.europa.eu/m8g/degree>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor degree"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/01105969d745783ae99c6816b5c688dcae93420d> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Ascope";
+  shacl:description "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points"@en;
+  shacl:name "scope"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://data.europa.eu/m8g/scope>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor scope is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/0bcd82491877b4e132889dbb5ec32f7dbaebfaa1> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Astudy%20programme";
+  shacl:description "Name of a study programme that the student finished at the higher education institution in order to obtain the degree"@en;
+  shacl:minCount 1;
+  shacl:name "study programme"@en;
+  shacl:path <http://data.europa.eu/m8g/studyProgramme>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Minimaal 1 waarden verwacht voor study programme"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/0cb4c69ee04488f8a0c4b211c47ce3b21d3d20be> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Amode%20of%20study";
+  shacl:description "Mode of study (full-time, part-time, etc.)"@en;
+  shacl:maxCount 1;
+  shacl:name "mode of study"@en;
+  shacl:path <http://data.europa.eu/m8g/modeOfStudy>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor mode of study"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/121b15f2cfe5ac33a2df1ee44ab56097f079d945> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aduration%20of%20education";
+  shacl:description "Official duration of education"@en;
+  shacl:name "duration of education"@en;
   shacl:nodekind "sh:Literal";
   shacl:path <http://data.europa.eu/m8g/durationOfEducation>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor evidence type classification is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor duration of education is een Literal"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
-<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/6c7c1bd2ab3b7761e5be759a078a9fd93f411a57> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aidentifier";
-  shacl:description "Unambiguous reference to the Evidence Type."@en;
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/12905480e9347ee3cdec0a0f38d13a5ed5d97f84> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Amode%20of%20study";
+  shacl:description "Mode of study (full-time, part-time, etc.)"@en;
   shacl:minCount 1;
-  shacl:name "identifier"@en;
-  shacl:path dc:identifier;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Minimaal 1 waarden verwacht voor identifier"];
+  shacl:name "mode of study"@en;
+  shacl:path <http://data.europa.eu/m8g/modeOfStudy>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Minimaal 1 waarden verwacht voor mode of study"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
-<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/c0d17764e84e711728581fda7356a51e99a9040a> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aidentifier";
-  shacl:description "Unambiguous reference to the Evidence Type."@en;
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/1bb0e53e3e1876c3da3fd9df3e8ee3f60d4884a4> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Amain%20field%20of%20study";
+  shacl:description "Field of finished higher education - ISCED-F controlled list"@en;
+  shacl:name "main field of study"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://data.europa.eu/m8g/mainFieldOfStudy>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor main field of study is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/21fd2e018915cd010aee64c9aa451a414a1ad052> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Acountry";
+  shacl:description "Country where the study programme was completed by the student"@en;
   shacl:maxCount 1;
-  shacl:name "identifier"@en;
-  shacl:path dc:identifier;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor identifier"];
+  shacl:name "country"@en;
+  shacl:path <http://data.europa.eu/m8g/country>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor country"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
-<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/ce8a015e331e05a0d34d3c69ba9e382387ddae10> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aevidence%20type%20classification";
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/272295e2967d3e3aef522a1c9008de5eb797f296> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Astudy%20programme";
+  shacl:description "Name of a study programme that the student finished at the higher education institution in order to obtain the degree"@en;
+  shacl:name "study programme"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <http://data.europa.eu/m8g/studyProgramme>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor study programme is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/2e1264dfab451948c67f19b5221e7e02719268b7> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aaverage%20grade";
+  shacl:description "The average grade awarded"@en;
+  shacl:maxCount 1;
+  shacl:name "average grade"@en;
+  shacl:path <http://data.europa.eu/m8g/averageGrade>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor average grade"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/4005a4331130f00ef723c764231303ee733e7ba2> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aaverage%20grade";
+  shacl:description "The average grade awarded"@en;
+  shacl:name "average grade"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <http://data.europa.eu/m8g/averageGrade>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor average grade is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/4492f578fd7e0ff3cb078568af377822ca1e030e> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Amain%20field%20of%20study";
+  shacl:class skos:Concept;
+  shacl:description "Field of finished higher education - ISCED-F controlled list"@en;
+  shacl:name "main field of study"@en;
+  shacl:path <http://data.europa.eu/m8g/mainFieldOfStudy>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van main field of study moet van het type <http://www.w3.org/2004/02/skos/core#Concept> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/4b8f8eff8eada6ecefbf19bbe3fc744c65f77c7a> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Amain%20field%20of%20study";
+  shacl:description "Field of finished higher education - ISCED-F controlled list"@en;
+  shacl:maxCount 1;
+  shacl:name "main field of study"@en;
+  shacl:path <http://data.europa.eu/m8g/mainFieldOfStudy>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor main field of study"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/4e91bac2f6df80185c9b4540ca187b4185379b2b> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Ascope";
+  shacl:class skos:Concept;
+  shacl:description "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points"@en;
+  shacl:name "scope"@en;
+  shacl:path <http://data.europa.eu/m8g/scope>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van scope moet van het type <http://www.w3.org/2004/02/skos/core#Concept> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/4f55a250e5c4f7f64dddb030205d357a18d2645f> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Astudy%20programme";
+  shacl:description "Name of a study programme that the student finished at the higher education institution in order to obtain the degree"@en;
+  shacl:maxCount 1;
+  shacl:name "study programme"@en;
+  shacl:path <http://data.europa.eu/m8g/studyProgramme>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor study programme"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/520563724e3a8aa7c60dcce7342ed4c821858be4> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Astudy%20programme";
+  shacl:datatype rdf:langString;
+  shacl:description "Name of a study programme that the student finished at the higher education institution in order to obtain the degree"@en;
+  shacl:name "study programme"@en;
+  shacl:path <http://data.europa.eu/m8g/studyProgramme>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van study programme moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/5234ad4024f72ef2894b9a3c4070d21aa283ed87> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Acountry";
+  shacl:description "Country where the study programme was completed by the student"@en;
+  shacl:name "country"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://data.europa.eu/m8g/country>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor country is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/552455da368f2e2d08b5471c16ac6acfc787e468> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aholder%20of%20achievement";
+  shacl:class foaf:Agent;
+  shacl:description "Person that has obtained the academic title or degree"@en;
+  shacl:name "holder of achievement"@en;
+  shacl:path dc:subject;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van holder of achievement moet van het type <http://xmlns.com/foaf/0.1/Agent> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/619c569894f65fa9e20f2d703f970fd0cb5dac65> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Astudy%20programme";
+  shacl:description "Name of a study programme that the student finished at the higher education institution in order to obtain the degree"@en;
+  shacl:name "study programme"@en;
+  shacl:path <http://data.europa.eu/m8g/studyProgramme>;
+  shacl:uniqueLang true;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Slechts 1 waarde voor elke taal toegelaten voor study programme"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/7795542430e1a8c6bdda87b82a8be8f094c61c8e> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Ainstitution%20name";
+  shacl:description "The name of the higher education institution where the student obtained the degree"@en;
+  shacl:minCount 1;
+  shacl:name "institution name"@en;
+  shacl:path <http://data.europa.eu/m8g/institutionName>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Minimaal 1 waarden verwacht voor institution name"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/779afe92d53e5d5310c708fc5388d53058baac40> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Ainstitution%20name";
+  shacl:datatype rdf:langString;
+  shacl:description "The name of the higher education institution where the student obtained the degree"@en;
+  shacl:name "institution name"@en;
+  shacl:path <http://data.europa.eu/m8g/institutionName>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van institution name moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/886a37c0a64d5093fa1e6f0352c72d6c9999de5f> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Adate%20of%20issue";
+  shacl:description "Date of issue of the certificate or diploma"@en;
+  shacl:name "date of issue"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <http://data.europa.eu/m8g/dateOfIssue>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor date of issue is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/8abf7520476f733f0a4900d50870e2f8d79cc540> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Adegree";
+  shacl:description "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)"@en;
+  shacl:name "degree"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <http://data.europa.eu/m8g/degree>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor degree is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/8e5b03b27fccfb5fc121e0a600b1634e71328ce0> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aduration%20of%20education";
+  shacl:description "Official duration of education"@en;
+  shacl:maxCount 1;
+  shacl:name "duration of education"@en;
+  shacl:path <http://data.europa.eu/m8g/durationOfEducation>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor duration of education"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/9260811724313305f5e58567c32bdea42e3e48c8> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Ainstitution%20name";
+  shacl:description "The name of the higher education institution where the student obtained the degree"@en;
+  shacl:name "institution name"@en;
+  shacl:path <http://data.europa.eu/m8g/institutionName>;
+  shacl:uniqueLang true;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Slechts 1 waarde voor elke taal toegelaten voor institution name"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/997f01be452dab4e2f9ba8eac66ced33da8bdef9> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Ascope";
+  shacl:description "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points"@en;
+  shacl:maxCount 1;
+  shacl:name "scope"@en;
+  shacl:path <http://data.europa.eu/m8g/scope>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor scope"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/a44e91662f0eb455e5684cafafd20774d6f6bd28> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Amain%20field%20of%20study";
+  shacl:description "Field of finished higher education - ISCED-F controlled list"@en;
+  shacl:minCount 1;
+  shacl:name "main field of study"@en;
+  shacl:path <http://data.europa.eu/m8g/mainFieldOfStudy>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Minimaal 1 waarden verwacht voor main field of study"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/a62e97f56ea8aa2e9b829c9e52470b38464d84ee> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Amode%20of%20study";
+  shacl:class skos:Concept;
+  shacl:description "Mode of study (full-time, part-time, etc.)"@en;
+  shacl:name "mode of study"@en;
+  shacl:path <http://data.europa.eu/m8g/modeOfStudy>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van mode of study moet van het type <http://www.w3.org/2004/02/skos/core#Concept> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/b2d3ac00adf57ca47e24b371d036da25f0f2fb43> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Adate%20of%20issue";
+  shacl:datatype xsd:date;
+  shacl:description "Date of issue of the certificate or diploma"@en;
+  shacl:name "date of issue"@en;
+  shacl:path <http://data.europa.eu/m8g/dateOfIssue>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van date of issue moet van het type <http://www.w3.org/2001/XMLSchema#date> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/b3c2b04a5770e5c72ce3a390615fb0682cad2762> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aholder%20of%20achievement";
+  shacl:description "Person that has obtained the academic title or degree"@en;
+  shacl:name "holder of achievement"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path dc:subject;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor holder of achievement is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/b8784653d3530bfcf213a00f8dffb8911bf0745f> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aaverage%20grade";
+  shacl:datatype xsd:double;
+  shacl:description "The average grade awarded"@en;
+  shacl:name "average grade"@en;
+  shacl:path <http://data.europa.eu/m8g/averageGrade>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van average grade moet van het type <http://www.w3.org/2001/XMLSchema#double> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/bdda3f24589bf03f70a756e03548975d63c32c90> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aduration%20of%20education";
+  shacl:description "Official duration of education"@en;
+  shacl:minCount 1;
+  shacl:name "duration of education"@en;
+  shacl:path <http://data.europa.eu/m8g/durationOfEducation>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Minimaal 1 waarden verwacht voor duration of education"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/befb27de8dc27d6bf1cd2b4ba2ca8405e3cc2a51> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Acountry";
+  shacl:class skos:Concept;
+  shacl:description "Country where the study programme was completed by the student"@en;
+  shacl:name "country"@en;
+  shacl:path <http://data.europa.eu/m8g/country>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van country moet van het type <http://www.w3.org/2004/02/skos/core#Concept> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/bf52e09676930dd8041524b5bcec89832bf2e0ac> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Amode%20of%20study";
+  shacl:description "Mode of study (full-time, part-time, etc.)"@en;
+  shacl:name "mode of study"@en;
+  shacl:nodekind "sh:BlankNodeOrIRI";
+  shacl:path <http://data.europa.eu/m8g/modeOfStudy>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor mode of study is een rdfs:Resource (URI of blank node)"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/cca7e197b68c904550fa06e5cb483bcfb082abdb> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Ainstitution%20name";
+  shacl:description "The name of the higher education institution where the student obtained the degree"@en;
+  shacl:name "institution name"@en;
+  shacl:nodekind "sh:Literal";
+  shacl:path <http://data.europa.eu/m8g/institutionName>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De verwachte waarde voor institution name is een Literal"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/e515f96d1d892ad4e05d32a3ffaa9a5ed7c17588> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Adegree";
+  shacl:description "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)"@en;
+  shacl:minCount 1;
+  shacl:name "degree"@en;
+  shacl:path <http://data.europa.eu/m8g/degree>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Minimaal 1 waarden verwacht voor degree"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/e9fbacbd1f19c7c2bb22be7609edfceb10a39357> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Acountry";
+  shacl:description "Country where the study programme was completed by the student"@en;
+  shacl:minCount 1;
+  shacl:name "country"@en;
+  shacl:path <http://data.europa.eu/m8g/country>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Minimaal 1 waarden verwacht voor country"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/ea65b986c5c3d0f61b0bd70d718c94420d80210f> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Adegree";
+  shacl:datatype rdf:langString;
+  shacl:description "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)"@en;
+  shacl:name "degree"@en;
+  shacl:path <http://data.europa.eu/m8g/degree>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van degree moet van het type <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/edb7be6d4868fa1506a388b62f2dfb8509548ba4> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Ainstitution%20name";
+  shacl:description "The name of the higher education institution where the student obtained the degree"@en;
+  shacl:maxCount 1;
+  shacl:name "institution name"@en;
+  shacl:path <http://data.europa.eu/m8g/institutionName>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor institution name"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/ef0ea69a86a8fa5c65637671c05d7859f3d29948> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aduration%20of%20education";
   shacl:datatype xsd:duration;
-  shacl:description "Category to which the Evidence Type belongs."@en;
-  shacl:name "evidence type classification"@en;
+  shacl:description "Official duration of education"@en;
+  shacl:name "duration of education"@en;
   shacl:path <http://data.europa.eu/m8g/durationOfEducation>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van evidence type classification moet van het type <http://www.w3.org/2001/XMLSchema#duration> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "De range van duration of education moet van het type <http://www.w3.org/2001/XMLSchema#duration> zijn."];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
-<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/cf7ce581b257744aacbea934671d0cf42090d370> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aevidence%20type%20classification";
-  shacl:description "Category to which the Evidence Type belongs."@en;
-  shacl:minCount 1;
-  shacl:name "evidence type classification"@en;
-  shacl:path <http://data.europa.eu/m8g/durationOfEducation>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Minimaal 1 waarden verwacht voor evidence type classification"];
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/f92c7819f876c22d22396f7f34639d476c5d7aef> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Adegree";
+  shacl:description "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)"@en;
+  shacl:name "degree"@en;
+  shacl:path <http://data.europa.eu/m8g/degree>;
+  shacl:uniqueLang true;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Slechts 1 waarde voor elke taal toegelaten voor degree"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
-<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/de4ddab4e58a591080bee455d5668948a6643749> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Aevidence%20type%20classification";
-  shacl:description "Category to which the Evidence Type belongs."@en;
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/fd95bf7f8872445b7fde0d790e1c2a4e1bbeef0b> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Adate%20of%20issue";
+  shacl:description "Date of issue of the certificate or diploma"@en;
   shacl:maxCount 1;
-  shacl:name "evidence type classification"@en;
-  shacl:path <http://data.europa.eu/m8g/durationOfEducation>;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor evidence type classification"];
+  shacl:name "date of issue"@en;
+  shacl:path <http://data.europa.eu/m8g/dateOfIssue>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Maximaal 1 waarden toegelaten voor date of issue"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/ffd170da8f01b32c50f2b566957a021659ebba79> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Adate%20of%20issue";
+  shacl:description "Date of issue of the certificate or diploma"@en;
+  shacl:minCount 1;
+  shacl:name "date of issue"@en;
+  shacl:path <http://data.europa.eu/m8g/dateOfIssue>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Minimaal 1 waarden verwacht voor date of issue"];
+  <https://data.vlaanderen.be/ns/shacl#rule> "" .
+
+<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaTypeShape/ffe4beac35d330d59c139fb3558aab43a172b9b5> rdfs:seeAlso "https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#HigherEducationDiplomaType%3Ascope";
+  shacl:description "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points"@en;
+  shacl:minCount 1;
+  shacl:name "scope"@en;
+  shacl:path <http://data.europa.eu/m8g/scope>;
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1en> "Minimaal 1 waarden verwacht voor scope"];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
 <https://semiceu.github.io//doc/core-vocabulary/cccev-de4a-v1#InformationConceptShape> a shacl:NodeShape;

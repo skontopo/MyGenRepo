@@ -192,10 +192,10 @@
 {
 "@id": "http://data.europa.eu/m8g/HigherEducationDiplomaType",
 "@type": "http://www.w3.org/2002/07/owl#Class",
-"ap-definition-en" : {"en": "Information about the characteristics of an Evidence."}, "usage" : {"en": "The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and\/or other characteristics that an actual response should have and provide (e.g. membership of a class of Evidences)."}, "ap-label-en" : {"en": "Evidence Type"}, "definition" : {"en": "Information about the characteristics of an Evidence."}, "label" : {"en": "Evidence Type"},
-"extra": {"EA-Name" : "HigherEducationDiplomaType", "EA-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Package" : "CCCEV", "EA-Type" : "CLASS", "EA-Parents" : "EvidenceType", "EA-Parents2" : [{ "name": "EvidenceType", "label" : "Evidence Type", "package" : "CCCEV", "uri" : "http://data.europa.eu/m8g/EvidenceType" }], "parentclasses" : "http://data.europa.eu/m8g/EvidenceType", "label" : "Evidence Type", "definition" : "Information about the characteristics of an Evidence.", "usage" : "The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and\/or other characteristics that an actual response should have and provide (e.g. membership of a class of Evidences).", "ap-label-en" : "Evidence Type", "ap-definition-en" : "Information about the characteristics of an Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "usageNote-en", "value": "NOTE", "note": "The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and\/or other characteristics that an actual response should have and provide (e.g. membership of a class of Evidences)." }, { "key": "label-en", "value": "Evidence Type", "note": "null" }, { "key": "definition-en", "value": "Information about the characteristics of an Evidence.", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Information about the characteristics of an Evidence."}, "usage" : {"en": "The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and\/or other characteristics that an actual response should have and provide (e.g. membership of a class of Evidences)."}, "ap-label-en" : {"en": "Evidence Type"}, "definition" : {"en": "Information about the characteristics of an Evidence."}, "label" : {"en": "Evidence Type"}},
+"ap-definition-en" : {"en": "Information about the characteristics of an Evidence."}, "ap-label-en" : {"en": "Higher Education Diploma Type"}, "definition" : {"en": "Information about the characteristics of an Evidence."}, "label" : {"en": "Higher Education Diploma Type"},
+"extra": {"EA-Name" : "HigherEducationDiplomaType", "EA-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Package" : "CCCEV", "EA-Type" : "CLASS", "EA-Parents" : "EvidenceType", "EA-Parents2" : [{ "name": "EvidenceType", "label" : "Evidence Type", "package" : "CCCEV", "uri" : "http://data.europa.eu/m8g/EvidenceType" }], "parentclasses" : "http://data.europa.eu/m8g/EvidenceType", "label" : "Higher Education Diploma Type", "definition" : "Information about the characteristics of an Evidence.", "usage" : "", "ap-label-en" : "Higher Education Diploma Type", "ap-definition-en" : "Information about the characteristics of an Evidence.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "Higher Education Diploma Type", "note": "null" }, { "key": "definition-en", "value": "Information about the characteristics of an Evidence.", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Information about the characteristics of an Evidence."}, "ap-label-en" : {"en": "Higher Education Diploma Type"}, "definition" : {"en": "Information about the characteristics of an Evidence."}, "label" : {"en": "Higher Education Diploma Type"}},
 "inpackage": "ACTIVE_PACKAGE",
-"name": "EvidenceType",
+"name": "HigherEducationDiplomaType",
 "parents": [
 "http://data.europa.eu/m8g/EvidenceType"]
 },
@@ -252,6 +252,26 @@
 ],
 "properties": [
 {
+"@id": "http://data.europa.eu/m8g/averageGrade",
+"@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+"name": "averageGrade",
+"inpackage": "ACTIVE_PACKAGE",
+"ap-definition-en" : {"en": "The average grade awarded"}, "ap-label-en" : {"en": "average grade"}, "definition" : {"en": "The average grade awarded"}, "label" : {"en": "average grade"},
+"extra": {"EA-Name" : "averageGrade", "EA-Guid" : "{ED939FE9-CC04-44e4-A1DD-F73A3402E208}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "Double", "RangeData" : {"EA-Name" : "Double", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#double" }, "label" : "average grade", "definition" : "The average grade awarded", "usage" : "", "ap-label-en" : "average grade", "ap-definition-en" : "The average grade awarded", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "average grade", "note": "null" }, { "key": "definition-en", "value": "The average grade awarded", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The average grade awarded"}, "ap-label-en" : {"en": "average grade"}, "definition" : {"en": "The average grade awarded"}, "label" : {"en": "average grade"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType", "EA-Name" : "HigherEducationDiplomaType" }
+],
+"range": [
+{"EA-Name" : "Double", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#double" }
+],
+"generalization": [
+
+],
+"minCardinality": "0",
+"maxCardinality": "1"}
+, {
 "@id": "http://data.europa.eu/m8g/bias",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
 "name": "bias",
@@ -292,12 +312,72 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
+"@id": "http://data.europa.eu/m8g/country",
+"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+"name": "country",
+"inpackage": "ACTIVE_PACKAGE",
+"ap-definition-en" : {"en": "Country where the study programme was completed by the student"}, "ap-label-en" : {"en": "country"}, "definition" : {"en": "Country where the study programme was completed by the student"}, "label" : {"en": "country"},
+"extra": {"EA-Name" : "country", "EA-Guid" : "{7E3F962D-185E-4690-BCD7-289324A6D466}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{42E5CA68-DDDC-473f-ABB0-20605DB07D1D}", "EA-Package" : "CCCEV", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "country", "definition" : "Country where the study programme was completed by the student", "usage" : "", "ap-label-en" : "country", "ap-definition-en" : "Country where the study programme was completed by the student", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "country", "note": "null" }, { "key": "definition-en", "value": "Country where the study programme was completed by the student", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Country where the study programme was completed by the student"}, "ap-label-en" : {"en": "country"}, "definition" : {"en": "Country where the study programme was completed by the student"}, "label" : {"en": "country"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType", "EA-Name" : "HigherEducationDiplomaType" }
+],
+"range": [
+{"EA-Name" : "Code", "EA-GUID" : "{42E5CA68-DDDC-473f-ABB0-20605DB07D1D}", "EA-Package" : "CCCEV", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
+],
+"generalization": [
+
+],
+"minCardinality": "1",
+"maxCardinality": "1"}
+, {
+"@id": "http://data.europa.eu/m8g/dateOfIssue",
+"@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+"name": "dateOfIssue",
+"inpackage": "ACTIVE_PACKAGE",
+"ap-definition-en" : {"en": "Date of issue of the certificate or diploma"}, "ap-label-en" : {"en": "date of issue"}, "definition" : {"en": "Date of issue of the certificate or diploma"}, "label" : {"en": "date of issue"},
+"extra": {"EA-Name" : "dateOfIssue", "EA-Guid" : "{89F5DDD1-BC53-4e65-8094-6C85199A9238}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "Date", "RangeData" : {"EA-Name" : "Date", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#date" }, "label" : "date of issue", "definition" : "Date of issue of the certificate or diploma", "usage" : "", "ap-label-en" : "date of issue", "ap-definition-en" : "Date of issue of the certificate or diploma", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "date of issue", "note": "null" }, { "key": "definition-en", "value": "Date of issue of the certificate or diploma", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Date of issue of the certificate or diploma"}, "ap-label-en" : {"en": "date of issue"}, "definition" : {"en": "Date of issue of the certificate or diploma"}, "label" : {"en": "date of issue"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType", "EA-Name" : "HigherEducationDiplomaType" }
+],
+"range": [
+{"EA-Name" : "Date", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#date" }
+],
+"generalization": [
+
+],
+"minCardinality": "1",
+"maxCardinality": "1"}
+, {
+"@id": "http://data.europa.eu/m8g/degree",
+"@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+"name": "degree",
+"inpackage": "ACTIVE_PACKAGE",
+"ap-definition-en" : {"en": "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)"}, "ap-label-en" : {"en": "degree"}, "definition" : {"en": "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)"}, "label" : {"en": "degree"},
+"extra": {"EA-Name" : "degree", "EA-Guid" : "{4ED1BC16-94ED-4e11-8A28-F070232499BD}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "LangString", "RangeData" : {"EA-Name" : "LangString", "EA-Package" : "", "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" }, "label" : "degree", "definition" : "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)", "usage" : "", "ap-label-en" : "degree", "ap-definition-en" : "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "degree", "note": "null" }, { "key": "definition-en", "value": "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)"}, "ap-label-en" : {"en": "degree"}, "definition" : {"en": "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)"}, "label" : {"en": "degree"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType", "EA-Name" : "HigherEducationDiplomaType" }
+],
+"range": [
+{"EA-Name" : "LangString", "EA-Package" : "", "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" }
+],
+"generalization": [
+
+],
+"minCardinality": "1",
+"maxCardinality": "1"}
+, {
 "@id": "http://data.europa.eu/m8g/durationOfEducation",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-"name": "evidenceTypeClassification",
+"name": "durationOfEducation",
 "inpackage": "ACTIVE_PACKAGE",
-"ap-definition-en" : {"en": "Category to which the Evidence Type belongs."}, "usage" : {"en": "The categories agreed are left open but could for example specify the layout and content expected for an Evidence."}, "ap-label-en" : {"en": "evidence type classification"}, "definition" : {"en": "Category to which the Evidence Type belongs."}, "label" : {"en": "evidence type classification"},
-"extra": {"EA-Name" : "durationOfEducation", "EA-Guid" : "{75D94BF3-BD2B-4c68-BA8B-B3B8218A9D36}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "Duration", "RangeData" : {"EA-Name" : "Duration", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#duration" }, "label" : "evidence type classification", "definition" : "Category to which the Evidence Type belongs.", "usage" : "The categories agreed are left open but could for example specify the layout and content expected for an Evidence.", "ap-label-en" : "evidence type classification", "ap-definition-en" : "Category to which the Evidence Type belongs.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "usageNote-en", "value": "The categories agreed are left open but could for example specify the layout and content expected for an Evidence.", "note": "null" }, { "key": "label-en", "value": "evidence type classification", "note": "null" }, { "key": "definition-en", "value": "Category to which the Evidence Type belongs.", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Category to which the Evidence Type belongs."}, "usage" : {"en": "The categories agreed are left open but could for example specify the layout and content expected for an Evidence."}, "ap-label-en" : {"en": "evidence type classification"}, "definition" : {"en": "Category to which the Evidence Type belongs."}, "label" : {"en": "evidence type classification"}},
+"ap-definition-en" : {"en": "Official duration of education"}, "usage" : {"en": "See 'xsd:duration' documentation for the correct format of duration values"}, "ap-label-en" : {"en": "duration of education"}, "definition" : {"en": "Official duration of education"}, "label" : {"en": "duration of education"},
+"extra": {"EA-Name" : "durationOfEducation", "EA-Guid" : "{75D94BF3-BD2B-4c68-BA8B-B3B8218A9D36}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "Duration", "RangeData" : {"EA-Name" : "Duration", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#duration" }, "label" : "duration of education", "definition" : "Official duration of education", "usage" : "See 'xsd:duration' documentation for the correct format of duration values", "ap-label-en" : "duration of education", "ap-definition-en" : "Official duration of education", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "duration of education", "note": "null" }, { "key": "definition-en", "value": "Official duration of education", "note": "null" }, { "key": "usageNote-en", "value": "See 'xsd:duration' documentation for the correct format of duration values", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Official duration of education"}, "usage" : {"en": "See 'xsd:duration' documentation for the correct format of duration values"}, "ap-label-en" : {"en": "duration of education"}, "definition" : {"en": "Official duration of education"}, "label" : {"en": "duration of education"}},
 "codelist": [
 ],
 "domain": [
@@ -388,6 +468,26 @@
 
 ]}
 , {
+"@id": "http://data.europa.eu/m8g/institutionName",
+"@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+"name": "institutionName",
+"inpackage": "ACTIVE_PACKAGE",
+"ap-definition-en" : {"en": "The name of the higher education institution where the student obtained the degree"}, "ap-label-en" : {"en": "institution name"}, "definition" : {"en": "The name of the higher education institution where the student obtained the degree"}, "label" : {"en": "institution name"},
+"extra": {"EA-Name" : "institutionName", "EA-Guid" : "{39C444A8-A38A-4cb9-9B40-BB17BCE6883B}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "LangString", "RangeData" : {"EA-Name" : "LangString", "EA-Package" : "", "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" }, "label" : "institution name", "definition" : "The name of the higher education institution where the student obtained the degree", "usage" : "", "ap-label-en" : "institution name", "ap-definition-en" : "The name of the higher education institution where the student obtained the degree", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "institution name", "note": "null" }, { "key": "definition-en", "value": "The name of the higher education institution where the student obtained the degree", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The name of the higher education institution where the student obtained the degree"}, "ap-label-en" : {"en": "institution name"}, "definition" : {"en": "The name of the higher education institution where the student obtained the degree"}, "label" : {"en": "institution name"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType", "EA-Name" : "HigherEducationDiplomaType" }
+],
+"range": [
+{"EA-Name" : "LangString", "EA-Package" : "", "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" }
+],
+"generalization": [
+
+],
+"minCardinality": "1",
+"maxCardinality": "1"}
+, {
 "@id": "http://data.europa.eu/m8g/isRequirementOf",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "isRequirementOf",
@@ -423,6 +523,46 @@
 "generalization": [
 
 ]}
+, {
+"@id": "http://data.europa.eu/m8g/mainFieldOfStudy",
+"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+"name": "mainFieldOfStudy",
+"inpackage": "ACTIVE_PACKAGE",
+"ap-definition-en" : {"en": "Field of finished higher education - ISCED-F controlled list"}, "ap-label-en" : {"en": "main field of study"}, "definition" : {"en": "Field of finished higher education - ISCED-F controlled list"}, "label" : {"en": "main field of study"},
+"extra": {"EA-Name" : "mainFieldOfStudy", "EA-Guid" : "{28FCA409-CC70-4aa7-B227-04A43784142B}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{42E5CA68-DDDC-473f-ABB0-20605DB07D1D}", "EA-Package" : "CCCEV", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "main field of study", "definition" : "Field of finished higher education - ISCED-F controlled list", "usage" : "", "ap-label-en" : "main field of study", "ap-definition-en" : "Field of finished higher education - ISCED-F controlled list", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "main field of study", "note": "null" }, { "key": "definition-en", "value": "Field of finished higher education - ISCED-F controlled list", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Field of finished higher education - ISCED-F controlled list"}, "ap-label-en" : {"en": "main field of study"}, "definition" : {"en": "Field of finished higher education - ISCED-F controlled list"}, "label" : {"en": "main field of study"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType", "EA-Name" : "HigherEducationDiplomaType" }
+],
+"range": [
+{"EA-Name" : "Code", "EA-GUID" : "{42E5CA68-DDDC-473f-ABB0-20605DB07D1D}", "EA-Package" : "CCCEV", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
+],
+"generalization": [
+
+],
+"minCardinality": "1",
+"maxCardinality": "1"}
+, {
+"@id": "http://data.europa.eu/m8g/modeOfStudy",
+"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+"name": "modeOfStudy",
+"inpackage": "ACTIVE_PACKAGE",
+"ap-definition-en" : {"en": "Mode of study (full-time, part-time, etc.)"}, "ap-label-en" : {"en": "mode of study"}, "definition" : {"en": "Mode of study (full-time, part-time, etc.)"}, "label" : {"en": "mode of study"},
+"extra": {"EA-Name" : "modeOfStudy", "EA-Guid" : "{624D168E-420F-44d2-B590-E795E52F3025}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{42E5CA68-DDDC-473f-ABB0-20605DB07D1D}", "EA-Package" : "CCCEV", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "mode of study", "definition" : "Mode of study (full-time, part-time, etc.)", "usage" : "", "ap-label-en" : "mode of study", "ap-definition-en" : "Mode of study (full-time, part-time, etc.)", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "mode of study", "note": "null" }, { "key": "definition-en", "value": "Mode of study (full-time, part-time, etc.)", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Mode of study (full-time, part-time, etc.)"}, "ap-label-en" : {"en": "mode of study"}, "definition" : {"en": "Mode of study (full-time, part-time, etc.)"}, "label" : {"en": "mode of study"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType", "EA-Name" : "HigherEducationDiplomaType" }
+],
+"range": [
+{"EA-Name" : "Code", "EA-GUID" : "{42E5CA68-DDDC-473f-ABB0-20605DB07D1D}", "EA-Package" : "CCCEV", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
+],
+"generalization": [
+
+],
+"minCardinality": "1",
+"maxCardinality": "1"}
 , {
 "@id": "http://data.europa.eu/m8g/providesValueFor",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
@@ -462,6 +602,26 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
+"@id": "http://data.europa.eu/m8g/scope",
+"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+"name": "scope",
+"inpackage": "ACTIVE_PACKAGE",
+"ap-definition-en" : {"en": "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points"}, "ap-label-en" : {"en": "scope"}, "definition" : {"en": "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points"}, "label" : {"en": "scope"},
+"extra": {"EA-Name" : "scope", "EA-Guid" : "{837DC1E8-7A60-41af-90D4-F9938F9D3137}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "Code", "RangeData" : {"EA-Name" : "Code", "EA-GUID" : "{42E5CA68-DDDC-473f-ABB0-20605DB07D1D}", "EA-Package" : "CCCEV", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "scope", "definition" : "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points", "usage" : "", "ap-label-en" : "scope", "ap-definition-en" : "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "scope", "note": "null" }, { "key": "definition-en", "value": "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points"}, "ap-label-en" : {"en": "scope"}, "definition" : {"en": "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points"}, "label" : {"en": "scope"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType", "EA-Name" : "HigherEducationDiplomaType" }
+],
+"range": [
+{"EA-Name" : "Code", "EA-GUID" : "{42E5CA68-DDDC-473f-ABB0-20605DB07D1D}", "EA-Package" : "CCCEV", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
+],
+"generalization": [
+
+],
+"minCardinality": "1",
+"maxCardinality": "1"}
+, {
 "@id": "http://data.europa.eu/m8g/specifiesEvidenceType",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "specifiesEvidenceType",
@@ -479,6 +639,26 @@
 "generalization": [
 
 ]}
+, {
+"@id": "http://data.europa.eu/m8g/studyProgramme",
+"@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+"name": "studyProgramme",
+"inpackage": "ACTIVE_PACKAGE",
+"ap-definition-en" : {"en": "Name of a study programme that the student finished at the higher education institution in order to obtain the degree"}, "ap-label-en" : {"en": "study programme"}, "definition" : {"en": "Name of a study programme that the student finished at the higher education institution in order to obtain the degree"}, "label" : {"en": "study programme"},
+"extra": {"EA-Name" : "studyProgramme", "EA-Guid" : "{9101A0E6-0807-409c-A4B2-793E0F3BBE4A}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "LangString", "RangeData" : {"EA-Name" : "LangString", "EA-Package" : "", "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" }, "label" : "study programme", "definition" : "Name of a study programme that the student finished at the higher education institution in order to obtain the degree", "usage" : "", "ap-label-en" : "study programme", "ap-definition-en" : "Name of a study programme that the student finished at the higher education institution in order to obtain the degree", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "study programme", "note": "null" }, { "key": "definition-en", "value": "Name of a study programme that the student finished at the higher education institution in order to obtain the degree", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-definition-en" : {"en": "Name of a study programme that the student finished at the higher education institution in order to obtain the degree"}, "ap-label-en" : {"en": "study programme"}, "definition" : {"en": "Name of a study programme that the student finished at the higher education institution in order to obtain the degree"}, "label" : {"en": "study programme"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType", "EA-Name" : "HigherEducationDiplomaType" }
+],
+"range": [
+{"EA-Name" : "LangString", "EA-Package" : "", "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" }
+],
+"generalization": [
+
+],
+"minCardinality": "1",
+"maxCardinality": "1"}
 , {
 "@id": "http://data.europa.eu/m8g/supportsRequirement",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
@@ -1028,26 +1208,6 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "http://purl.org/dc/terms/identifier",
-"@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-"name": "identifier",
-"inpackage": "OTHER_PACKAGE",
-"ap-definition-en" : {"en": "Unambiguous reference to the Evidence Type."}, "ap-label-en" : {"en": "identifier"}, "definition" : {"en": "Unambiguous reference to the Evidence Type."}, "label" : {"en": "identifier"},
-"extra": {"EA-Name" : "averageGrade", "EA-Guid" : "{ED939FE9-CC04-44e4-A1DD-F73A3402E208}", "EA-Package" : "CCCEV", "EA-Type" : "attribute", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "double", "RangeData" : {"EA-Name" : "", "EA-Package" : "", "uri" : "null" }, "label" : "identifier", "definition" : "Unambiguous reference to the Evidence Type.", "usage" : "", "ap-label-en" : "identifier", "ap-definition-en" : "Unambiguous reference to the Evidence Type.", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-en", "value": "identifier", "note": "null" }, { "key": "definition-en", "value": "Unambiguous reference to the Evidence Type.", "note": "null" }, { "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/identifier", "note": "null" }], "Scope" : "TRANSLATIONS_ONLY", "ap-definition-en" : {"en": "Unambiguous reference to the Evidence Type."}, "ap-label-en" : {"en": "identifier"}, "definition" : {"en": "Unambiguous reference to the Evidence Type."}, "label" : {"en": "identifier"}},
-"codelist": [
-],
-"domain": [
-{ "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType", "EA-Name" : "HigherEducationDiplomaType" }
-],
-"range": [
-
-],
-"generalization": [
-
-],
-"minCardinality": "1",
-"maxCardinality": "1"}
-, {
 "@id": "http://purl.org/dc/terms/publisher",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": "isIssuedBy",
@@ -1094,6 +1254,24 @@
 ],
 "domain": [
 { "uri": "http://data.europa.eu/m8g/Evidence", "EA-Name" : "Evidence" }
+],
+"range": [
+{"EA-Name" : "Agent", "EA-GUID" : "{3C4A571F-B0FB-4506-902F-80FC1505C3A1}", "EA-Package" : "foaf", "uri" : "http://xmlns.com/foaf/0.1/Agent" }
+],
+"generalization": [
+
+]}
+, {
+"@id": "http://purl.org/dc/terms/subject",
+"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+"name": "holderOfAchievement",
+"inpackage": "UNKNOWN",
+"ap-definition-en" : {"en": "Person that has obtained the academic title or degree"}, "ap-label-en" : {"en": "holder of achievement"}, "definition" : {"en": "Person that has obtained the academic title or degree"}, "label" : {"en": "holder of achievement"},
+"extra": {"EA-Name" : "holderOfAchievement", "EA-Guid" : "{6D2876A0-91E1-47f9-B5A6-30172B050E60}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "HigherEducationDiplomaType", "EA-Domain-Guid" : "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}", "EA-Range" : "Agent", "RangeData" : {"EA-Name" : "Agent", "EA-GUID" : "{3C4A571F-B0FB-4506-902F-80FC1505C3A1}", "EA-Package" : "foaf", "uri" : "http://xmlns.com/foaf/0.1/Agent" }, "sourceRole" : "null", "destRole" : "holderOfAchievement", "label" : "holder of achievement", "definition" : "Person that has obtained the academic title or degree", "usage" : "", "ap-label-en" : "holder of achievement", "ap-definition-en" : "Person that has obtained the academic title or degree", "ap-usageNote-en" : "", "ap-codelist" : "", "RawTags" : [{ "key": "uri", "value": "NOTE", "note": "http:\/\/purl.org\/dc\/terms\/subject" }, { "key": "label-en", "value": "NOTE", "note": "holder of achievement" }, { "key": "definition-en", "value": "NOTE", "note": "Person that has obtained the academic title or degree" }], "DestRoleTags" : [{ "key": "uri", "value": "NOTE", "note": "http:\/\/purl.org\/dc\/terms\/subject" }, { "key": "label-en", "value": "NOTE", "note": "holder of achievement" }, { "key": "definition-en", "value": "NOTE", "note": "Person that has obtained the academic title or degree" }], "Scope" : "NOTHING", "ap-definition-en" : {"en": "Person that has obtained the academic title or degree"}, "ap-label-en" : {"en": "holder of achievement"}, "definition" : {"en": "Person that has obtained the academic title or degree"}, "label" : {"en": "holder of achievement"}},
+"codelist": [
+],
+"domain": [
+{ "uri": "http://data.europa.eu/m8g/HigherEducationDiplomaType", "EA-Name" : "HigherEducationDiplomaType" }
 ],
 "range": [
 {"EA-Name" : "Agent", "EA-GUID" : "{3C4A571F-B0FB-4506-902F-80FC1505C3A1}", "EA-Package" : "foaf", "uri" : "http://xmlns.com/foaf/0.1/Agent" }

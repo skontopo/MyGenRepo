@@ -83,17 +83,13 @@
     },
     {
       "EA-Guid": "{C54BEDCF-F22C-479a-9B7F-E41994E6E03A}",
-      "name": "EvidenceType",
+      "name": "HigherEducationDiplomaType",
       "label": {
-        "en": "Evidence Type",
+        "en": "Higher Education Diploma Type",
         "fr": "Enter your translation here"
       },
       "definition": {
         "en": "Information about the characteristics of an Evidence.",
-        "fr": "Enter your translation here"
-      },
-      "usage": {
-        "en": "The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and/or other characteristics that an actual response should have and provide (e.g. membership of a class of Evidences).",
         "fr": "Enter your translation here"
       }
     },
@@ -180,6 +176,18 @@
   ],
   "properties": [
     {
+      "EA-Guid": "{ED939FE9-CC04-44e4-A1DD-F73A3402E208}",
+      "name": "averageGrade",
+      "label": {
+        "en": "average grade",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The average grade awarded",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{ADD114A6-1007-4f52-8573-2CCDF832D5B8}",
       "name": "bias",
       "label": {
@@ -212,18 +220,54 @@
       }
     },
     {
-      "EA-Guid": "{75D94BF3-BD2B-4c68-BA8B-B3B8218A9D36}",
-      "name": "evidenceTypeClassification",
+      "EA-Guid": "{7E3F962D-185E-4690-BCD7-289324A6D466}",
+      "name": "country",
       "label": {
-        "en": "evidence type classification",
+        "en": "country",
         "fr": "Enter your translation here"
       },
       "definition": {
-        "en": "Category to which the Evidence Type belongs.",
+        "en": "Country where the study programme was completed by the student",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{89F5DDD1-BC53-4e65-8094-6C85199A9238}",
+      "name": "dateOfIssue",
+      "label": {
+        "en": "date of issue",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Date of issue of the certificate or diploma",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4ED1BC16-94ED-4e11-8A28-F070232499BD}",
+      "name": "degree",
+      "label": {
+        "en": "degree",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{75D94BF3-BD2B-4c68-BA8B-B3B8218A9D36}",
+      "name": "durationOfEducation",
+      "label": {
+        "en": "duration of education",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Official duration of education",
         "fr": "Enter your translation here"
       },
       "usage": {
-        "en": "The categories agreed are left open but could for example specify the layout and content expected for an Evidence.",
+        "en": "See 'xsd:duration' documentation for the correct format of duration values",
         "fr": "Enter your translation here"
       }
     },
@@ -288,6 +332,18 @@
       }
     },
     {
+      "EA-Guid": "{39C444A8-A38A-4cb9-9B40-BB17BCE6883B}",
+      "name": "institutionName",
+      "label": {
+        "en": "institution name",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The name of the higher education institution where the student obtained the degree",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{027EA522-F366-416a-B842-6E512EB3569E}",
       "name": "isRequirementOf",
       "label": {
@@ -312,6 +368,30 @@
       },
       "definition": {
         "en": "Evidence Type List in which the Evidence Type is included.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{28FCA409-CC70-4aa7-B227-04A43784142B}",
+      "name": "mainFieldOfStudy",
+      "label": {
+        "en": "main field of study",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Field of finished higher education - ISCED-F controlled list",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{624D168E-420F-44d2-B590-E795E52F3025}",
+      "name": "modeOfStudy",
+      "label": {
+        "en": "mode of study",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Mode of study (full-time, part-time, etc.)",
         "fr": "Enter your translation here"
       }
     },
@@ -344,6 +424,18 @@
       }
     },
     {
+      "EA-Guid": "{837DC1E8-7A60-41af-90D4-F9938F9D3137}",
+      "name": "scope",
+      "label": {
+        "en": "scope",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{D9F82750-FB2E-4628-B296-A98932F87A98}",
       "name": "specifiesEvidenceType",
       "label": {
@@ -352,6 +444,18 @@
       },
       "definition": {
         "en": "Evidence Type included in this Evidence Type List.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9101A0E6-0807-409c-A4B2-793E0F3BBE4A}",
+      "name": "studyProgramme",
+      "label": {
+        "en": "study programme",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Name of a study programme that the student finished at the higher education institution in order to obtain the degree",
         "fr": "Enter your translation here"
       }
     },
@@ -808,18 +912,6 @@
       }
     },
     {
-      "EA-Guid": "{ED939FE9-CC04-44e4-A1DD-F73A3402E208}",
-      "name": "identifier",
-      "label": {
-        "en": "identifier",
-        "fr": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Unambiguous reference to the Evidence Type.",
-        "fr": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{FCE8BB1B-ED25-430c-8474-4159F04C81DE}",
       "name": "isIssuedBy",
       "label": {
@@ -856,6 +948,18 @@
       },
       "definition": {
         "en": "Agent that is the subject in the provided Evidence.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6D2876A0-91E1-47f9-B5A6-30172B050E60}",
+      "name": "holderOfAchievement",
+      "label": {
+        "en": "holder of achievement",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Person that has obtained the academic title or degree",
         "fr": "Enter your translation here"
       }
     },

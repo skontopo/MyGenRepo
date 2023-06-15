@@ -79,14 +79,14 @@
       "@id": "http://data.europa.eu/m8g/validityPeriod",
       "@type": "@id"
     },
-    "EvidenceType": "http://data.europa.eu/m8g/HigherEducationDiplomaType",
+    "EvidenceType": "http://data.europa.eu/m8g/EvidenceType",
     "EvidenceType.evidenceTypeClassification": {
       "@id": "http://data.europa.eu/m8g/evidenceTypeClassification",
       "@type": "@id"
     },
     "EvidenceType.identifier": {
       "@id": "http://purl.org/dc/terms/identifier",
-      "@type": ""
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "EvidenceType.isSpecifiedIn": {
       "@container": "@set",
@@ -120,6 +120,52 @@
       "@container": "@set",
       "@id": "http://data.europa.eu/m8g/specifiesEvidenceType",
       "@type": "@id"
+    },
+    "HigherEducationDiplomaType": "http://data.europa.eu/m8g/HigherEducationDiplomaType",
+    "HigherEducationDiplomaType.averageGrade": {
+      "@id": "http://data.europa.eu/m8g/averageGrade",
+      "@type": "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "HigherEducationDiplomaType.country": {
+      "@id": "http://data.europa.eu/m8g/country",
+      "@type": "@id"
+    },
+    "HigherEducationDiplomaType.dateOfIssue": {
+      "@id": "http://data.europa.eu/m8g/dateOfIssue",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "HigherEducationDiplomaType.degree": {
+      "@id": "http://data.europa.eu/m8g/degree",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "HigherEducationDiplomaType.durationOfEducation": {
+      "@id": "http://data.europa.eu/m8g/durationOfEducation",
+      "@type": "http://www.w3.org/2001/XMLSchema#duration"
+    },
+    "HigherEducationDiplomaType.holderOfAchievement": {
+      "@container": "@set",
+      "@id": "http://purl.org/dc/terms/subject",
+      "@type": "@id"
+    },
+    "HigherEducationDiplomaType.institutionName": {
+      "@id": "http://data.europa.eu/m8g/institutionName",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "HigherEducationDiplomaType.mainFieldOfStudy": {
+      "@id": "http://data.europa.eu/m8g/mainFieldOfStudy",
+      "@type": "@id"
+    },
+    "HigherEducationDiplomaType.modeOfStudy": {
+      "@id": "http://data.europa.eu/m8g/modeOfStudy",
+      "@type": "@id"
+    },
+    "HigherEducationDiplomaType.scope": {
+      "@id": "http://data.europa.eu/m8g/scope",
+      "@type": "@id"
+    },
+    "HigherEducationDiplomaType.studyProgramme": {
+      "@id": "http://data.europa.eu/m8g/studyProgramme",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
     "InformationConcept": "http://data.europa.eu/m8g/InformationConcept",
     "InformationConcept.description": {

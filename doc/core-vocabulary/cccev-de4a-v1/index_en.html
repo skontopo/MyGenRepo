@@ -169,7 +169,7 @@
               <div class="head" role="metainfo" id="metainfo">
               <dl>
               <dt>Source</dt><dd><a href="https://github.com/SEMICeu/CCCEV/tree/master/releases/2.00">https://github.com/SEMICeu/CCCEV/tree/master/releases/2.00</a></dd>
-              <!--<dt>Changelog</dt><dd><a href="git@github.com:skontopo/uri.semic.eu-thema.git/blob/6e3d5afca85c29f6f00223353b7e5cb15cb24a0d/CHANGELOG">git@github.com:skontopo/uri.semic.eu-thema.git/blob/6e3d5afca85c29f6f00223353b7e5cb15cb24a0d/CHANGELOG</a></dd>-->
+              <!--<dt>Changelog</dt><dd><a href="git@github.com:skontopo/uri.semic.eu-thema.git/blob/c21a105e61c931ecc80694d621f1de62c58ed4f7/CHANGELOG">git@github.com:skontopo/uri.semic.eu-thema.git/blob/c21a105e61c931ecc80694d621f1de62c58ed4f7/CHANGELOG</a></dd>-->
               <dt>Feedback</dt><dd><a href="https://github.com/SEMICeu/CCCEV/issues">https://github.com/SEMICeu/CCCEV/issues</a></dd>
               <!--<dt>Registry of standards</dt><dd><a href="TODO">TODO</a></dd>-->
 
@@ -268,8 +268,8 @@
                       <a href="#Dataset">Dataset</a> |
                       <a href="#Evidence">Evidence</a> |
                       <a href="#EvidenceType">Evidence Type</a> |
-                      <a href="#EvidenceType">Evidence Type</a> |
                       <a href="#EvidenceTypeList">Evidence Type List</a> |
+                      <a href="#HigherEducationDiplomaType">Higher Education Diploma Type</a> |
                       <a href="#InformationConcept">Information Concept</a> |
                       <a href="#InformationRequirement">Information Requirement</a> |
                       <a href="#Location">Location</a> |
@@ -931,82 +931,6 @@ The proof can be given through documents or extracts of base registries, indepen
             </div>
             
               <div class="region region--no-space-top">
-              <h3 class="h3" id="EvidenceType"><a href="http://data.europa.eu/m8g/HigherEducationDiplomaType" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/HigherEducationDiplomaType" data-placement="right">Evidence Type</a></h3>
-                <div class="region region--no-space-top">
-                  <dl>
-                    <dt>Definition</dt><dd>Information about the characteristics of an Evidence.</dd>
-                    
-                    <dt>Usage</dt><dd>The Evidence Type and the characteristics it describes are not concrete individual responses to a Requirement (i.e. Evidence), but descriptions about the desired form, content, source and/or other characteristics that an actual response should have and provide (e.g. membership of a class of Evidences).</dd>
-                    
-		     
-		    <dt>Subclass of<dt><dd>
-                        <a href="#Evidence Type">Evidence Type</a>
-		   </dd>
-                    
-                    <dt>Properties</dt>
-		     
-                    <dd>For this entity the following properties are defined:
-                      <a href="#EvidenceType%3AevidenceTypeClassification">evidence type classification</a>, 
-                      <a href="#EvidenceType%3Aidentifier">identifier</a>.</dd>
-                    
-                  </dl>
-                </div>
-		 
-                <div class="u-table-overflow">
-                  <table class="data-table">
-                    <thead>
-                      <tr class="data-table__header">
-                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                        <th class="data-table__header-title--sortable">Expected Range</th>
-                        <th class="data-table__header-title--sortable">Definition</th>
-                        <th class="data-table__header-title--sortable">Usage</th>
-                        <th class="data-table__header-title--sortable">Codelist</th>
-                      </tr>
-                    </thead>
-
-                    <tbody class="supertype">
-                    
-                      <tr id="EvidenceType%3AevidenceTypeClassification" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/durationOfEducation">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://data.europa.eu/m8g/durationOfEducation" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/durationOfEducation" data-placement="right">
-                            evidence type classification</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#duration" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#duration" data-placement="right">Duration</a>
-                            
-                          
-                        </td>
-                        <td property="rdfs:comment">Category to which the Evidence Type belongs.</td>
-                        <td property="skos:scopeNote">The categories agreed are left open but could for example specify the layout and content expected for an Evidence.</td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="EvidenceType%3Aidentifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
-                            identifier</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td property="rdfs:comment">Unambiguous reference to the Evidence Type.</td>
-                        <td property="skos:scopeNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                    </tbody>
-                  </table>
-                </div>
-      			  
-            </div>
-            
-              <div class="region region--no-space-top">
               <h3 class="h3" id="EvidenceTypeList"><a href="http://data.europa.eu/m8g/EvidenceTypeList" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/EvidenceTypeList" data-placement="right">Evidence Type List</a></h3>
                 <div class="region region--no-space-top">
                   <dl>
@@ -1114,6 +1038,264 @@ The Evidence Type List describes thus an AND condition on the different Evidence
                           
                         </td>
                         <td property="rdfs:comment">Evidence Type included in this Evidence Type List.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="HigherEducationDiplomaType"><a href="http://data.europa.eu/m8g/HigherEducationDiplomaType" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/HigherEducationDiplomaType" data-placement="right">Higher Education Diploma Type</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Definition</dt><dd>Information about the characteristics of an Evidence.</dd>
+                    
+		     
+		    <dt>Subclass of<dt><dd>
+                        <a href="#Evidence Type">Evidence Type</a>
+		   </dd>
+                    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#HigherEducationDiplomaType%3AaverageGrade">average grade</a>, 
+                      <a href="#HigherEducationDiplomaType%3Acountry">country</a>, 
+                      <a href="#HigherEducationDiplomaType%3AdateOfIssue">date of issue</a>, 
+                      <a href="#HigherEducationDiplomaType%3Adegree">degree</a>, 
+                      <a href="#HigherEducationDiplomaType%3AdurationOfEducation">duration of education</a>, 
+                      <a href="#HigherEducationDiplomaType%3AholderOfAchievement">holder of achievement</a>, 
+                      <a href="#HigherEducationDiplomaType%3AinstitutionName">institution name</a>, 
+                      <a href="#HigherEducationDiplomaType%3AmainFieldOfStudy">main field of study</a>, 
+                      <a href="#HigherEducationDiplomaType%3AmodeOfStudy">mode of study</a>, 
+                      <a href="#HigherEducationDiplomaType%3Ascope">scope</a>, 
+                      <a href="#HigherEducationDiplomaType%3AstudyProgramme">study programme</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+                        <th class="data-table__header-title--sortable">Definition</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="HigherEducationDiplomaType%3AaverageGrade" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/averageGrade">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/averageGrade" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/averageGrade" data-placement="right">
+                            average grade</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#double" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#double" data-placement="right">Double</a>
+                            
+                          
+                        </td>
+                        <td property="rdfs:comment">The average grade awarded</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="HigherEducationDiplomaType%3Acountry" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/country">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/country" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/country" data-placement="right">
+                            country</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+                        <td property="rdfs:comment">Country where the study programme was completed by the student</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="HigherEducationDiplomaType%3AdateOfIssue" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/dateOfIssue">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/dateOfIssue" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/dateOfIssue" data-placement="right">
+                            date of issue</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#date" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#date" data-placement="right">Date</a>
+                            
+                          
+                        </td>
+                        <td property="rdfs:comment">Date of issue of the certificate or diploma</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="HigherEducationDiplomaType%3Adegree" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/degree">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/degree" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/degree" data-placement="right">
+                            degree</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">LangString</a>
+                            
+                          
+                        </td>
+                        <td property="rdfs:comment">An academic title or degree obtained by the student and proven by this diploma or certificate (evidence)</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="HigherEducationDiplomaType%3AdurationOfEducation" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/durationOfEducation">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/durationOfEducation" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/durationOfEducation" data-placement="right">
+                            duration of education</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#duration" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#duration" data-placement="right">Duration</a>
+                            
+                          
+                        </td>
+                        <td property="rdfs:comment">Official duration of education</td>
+                        <td property="skos:scopeNote">See 'xsd:duration' documentation for the correct format of duration values</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="HigherEducationDiplomaType%3AholderOfAchievement" typeof="rdfs:Property" resource="http://purl.org/dc/terms/subject">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/subject" data-toggle="tooltip" data-content="http://purl.org/dc/terms/subject" data-placement="right">
+                            holder of achievement</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Agent" data-placement="right">Agent</a>
+			    
+                          
+                        </td>
+                        <td property="rdfs:comment">Person that has obtained the academic title or degree</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="HigherEducationDiplomaType%3AinstitutionName" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/institutionName">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/institutionName" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/institutionName" data-placement="right">
+                            institution name</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">LangString</a>
+                            
+                          
+                        </td>
+                        <td property="rdfs:comment">The name of the higher education institution where the student obtained the degree</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="HigherEducationDiplomaType%3AmainFieldOfStudy" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/mainFieldOfStudy">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/mainFieldOfStudy" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/mainFieldOfStudy" data-placement="right">
+                            main field of study</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+                        <td property="rdfs:comment">Field of finished higher education - ISCED-F controlled list</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="HigherEducationDiplomaType%3AmodeOfStudy" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/modeOfStudy">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/modeOfStudy" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/modeOfStudy" data-placement="right">
+                            mode of study</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+                        <td property="rdfs:comment">Mode of study (full-time, part-time, etc.)</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="HigherEducationDiplomaType%3Ascope" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/scope">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/scope" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/scope" data-placement="right">
+                            scope</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+                        <td property="rdfs:comment">The official workload of the study programme in ECTS (European Credit Transfer and Accumulation System) credit points</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="HigherEducationDiplomaType%3AstudyProgramme" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/studyProgramme">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/studyProgramme" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/studyProgramme" data-placement="right">
+                            study programme</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">LangString</a>
+                            
+                          
+                        </td>
+                        <td property="rdfs:comment">Name of a study programme that the student finished at the higher education institution in order to obtain the degree</td>
                         <td property="skos:scopeNote"></td>
                         <td></td>
                       </tr>
